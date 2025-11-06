@@ -1,5 +1,3 @@
-
-
 const dadosCuriosidades = {
   "tiranossauro-rex": {
     nome: "Tiranossauro Rex",
@@ -11,6 +9,97 @@ const dadosCuriosidades = {
       "Tinha braços curtos com dois dedos."
     ]
   },
+  "triceratops": {
+    nome: "Triceratops",
+    imagem: "../img/triceratops.jpg",
+    curiosidades: [
+      "Tinha três chifres e uma gola óssea.",
+      "Era herbívoro e vivia em manadas.",
+      "Pesava cerca de 6 a 12 toneladas.",
+      "Usava os chifres para defesa."
+    ]
+  },
+  "velociraptor": {
+    nome: "Velociraptor",
+    imagem: "../img/velociraptor.jpg",
+    curiosidades: [
+      "Media cerca de 2 metros de comprimento.",
+      "Era ágil e inteligente.",
+      "Possuía garras curvas e afiadas.",
+      "Provavelmente tinha penas."
+    ]
+  },
+  "estegossauro": {
+    nome: "Estegossauro",
+    imagem: "../img/estegossauro.jpg",
+    curiosidades: [
+      "Tinha placas ósseas ao longo das costas.",
+      "Possuía espinhos na cauda para defesa.",
+      "Era herbívoro e lento.",
+      "Viveu no período Jurássico."
+    ]
+  },
+  "anquilossauro": {
+    nome: "Anquilossauro",
+    imagem: "../img/anquilossauro.jpg",
+    curiosidades: [
+      "Corpo blindado com placas ósseas.",
+      "Cauda com clava para defesa.",
+      "Herbívoro resistente.",
+      "Viveu no final do período Cretáceo."
+    ]
+  },
+  "carnotauro": {
+    nome: "Carnotauro",
+    imagem: "../img/carnotauro.png",
+    curiosidades: [
+      "Tinha chifres curtos acima dos olhos.",
+      "Braços extremamente pequenos.",
+      "Era carnívoro e ágil.",
+      "Viveu na América do Sul."
+    ]
+  },
+  "alossauro": {
+    nome: "Alossauro",
+    imagem: "../img/alossauro.png",
+    curiosidades: [
+      "Predador do período Jurássico.",
+      "Tinha mandíbulas fortes e dentes afiados.",
+      "Mais leve que o T. rex.",
+      "Caçava em grupo."
+    ]
+  },
+  "braquiossauro": {
+    nome: "Braquiossauro",
+    imagem: "../img/braquiossauro.jpg",
+    curiosidades: [
+      "Pescoço longo para alcançar folhas altas.",
+      "Herbívoro gigante.",
+      "Viveu no período Jurássico.",
+      "Tinha patas dianteiras maiores que as traseiras."
+    ]
+  },
+  "spinossauro": {
+    nome: "Spinossauro",
+    imagem: "../img/spinossauro.png",
+    curiosidades: [
+      "Possuía uma vela nas costas.",
+      "Viveu em ambientes aquáticos.",
+      "Maior que o T. rex.",
+      "Caçava peixes e pequenos animais."
+    ]
+  },
+  "diplodocus": {
+    nome: "Diplodocus",
+    imagem: "../img/diplodocus.jpg",
+    curiosidades: [
+      "Pescoço e cauda extremamente longos.",
+      "Herbívoro pacífico.",
+      "Viveu no período Jurássico.",
+      "Um dos dinossauros mais compridos já descobertos."
+    ]
+  },
+  // Híbridos abaixo
   "indominus-rex": {
     nome: "Indominus Rex",
     imagem: "../img-hibridos/indominus.png",
