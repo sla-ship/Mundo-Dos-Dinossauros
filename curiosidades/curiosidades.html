@@ -1,13 +1,13 @@
-
-
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Curiosidades do Dinossauro</title>
   <link rel="stylesheet" href="curiosidades.css" />
 </head>
+
 <body>
   <header>
     <h1 id="titulo-dino">Dinossauro</h1>
@@ -15,8 +15,26 @@
   </header>
 
   <main class="curiosidade-container">
+    <!-- Container para imagem + vídeo lado a lado -->
+<div class="midia-dino">
+  <div class="card-midia">
     <img id="imagem-dino" class="imagem-dino" />
+  </div>
+  <div class="card-midia">
+    <iframe id="video-dino" class="video-dino" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+
+
+    <!-- <div class="midia-dino">
+      <img id="imagem-dino" class="imagem-dino" />
+      <iframe id="video-dino" class="video-dino" frameborder="0" allowfullscreen></iframe>
+    </div> -->
+
+    <!-- Lista de curiosidades -->
     <ul id="lista-curiosidades" class="curiosidades-lista"></ul>
+
+    <!-- Botão voltar -->
     <a href="../index.html" class="botao-voltar">← Voltar para o site</a>
   </main>
 
@@ -27,4 +45,5 @@
 
   <script src="curiosidades.js"></script>
 </body>
+
 </html>
