@@ -25,16 +25,12 @@ ul {
     padding-left: 20px;
 }
 
-.galeria {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
+.galeria,
 .hibrido {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center; /* centraliza os cards */
 }
 
 .card {
@@ -44,6 +40,11 @@ ul {
     padding: 10px;
     text-align: center;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card img {
@@ -52,9 +53,49 @@ ul {
     border-radius: 5px;
 }
 
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Ajuste para títulos dentro do card */
+.card h3 {
+    margin: 10px 0 0;
+    font-size: 1rem;
+    color: #2c3e50;
+}
+
 footer {
     background-color: #2c3e50;
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+/* ===== Responsividade ===== */
+
+/* Tablet: até 1024px */
+@media (max-width: 1024px) {
+    .card {
+        width: 45%; /* dois cards por linha */
+    }
+}
+
+/* Celular: até 768px */
+@media (max-width: 768px) {
+    .card {
+        width: 100%; /* ocupa largura total */
+        height: 80%;
+    }
+    
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    section {
+        padding: 15px;
+    }
 }
